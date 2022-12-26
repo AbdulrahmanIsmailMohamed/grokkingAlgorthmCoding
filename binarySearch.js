@@ -20,3 +20,4 @@ function binarySearch(arr, item) {
 let myList = [1, 2, 3, 4, 5, 6, 7, 8];
 let itemPosition = binarySearch(myList, 5);
 console.log(itemPosition); // 4
+// Big O notation => O(n)
