@@ -4,7 +4,7 @@ function factByRecursive(x) {
 }
 function factByLoop(x) {
     if (x === 0) return 1;
-    let result =1;
+    let result = 1;
     for (let i = x; i > 0; i--) {
         result = result * i;
     }
