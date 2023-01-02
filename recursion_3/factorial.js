@@ -11,4 +11,4 @@ function factByLoop(x) {
     return result
 }
 console.log(factByRecursive(5));
-console.log(factLoop(5));
+console.log(factByLoop(5));
