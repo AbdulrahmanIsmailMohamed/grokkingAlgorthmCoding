@@ -1,6 +1,6 @@
 function factByRecursive(x) {
     if (x === 0) return 1;
-    return x * factRecursive(x - 1);
+    return x * factByRecursive(x - 1);
 }
 function factByLoop(x) {
     if (x === 0) return 1;
@@ -10,5 +10,5 @@ function factByLoop(x) {
     }
     return result
 }
-console.log(factRecursive(5));
+console.log(factByRecursive(5));
 console.log(factLoop(5));
